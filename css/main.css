@@ -15,3 +15,7 @@ a {
 .proposition {
   color: #fff;
 }
+
+li {
+  display: inline-block;
+}
