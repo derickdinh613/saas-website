@@ -11,16 +11,40 @@
   <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
 </head>
 <body>
-  <header class="gutter-1-2">
+  <main>
+    <header class="gutter-1-2">
+      <div class="grid">
+        <h1 class="island-1-2 push-0 peta unit [ xs-1 s-1 m-1-3 l-1-2 xl-1-2 ]">Sign-up</h1>
+        <nav class="pad-t-1-2 grid-middle unit xs-1 s-1 m-2-3 l-1-2 xl-1-2">
+          <ul class="push-1-2 list-group">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="tour.html">Tour</a></li>
+            <li><a href="pricing.html">Pricing</a></li>
+            <li><a href="#">Sign-Up</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
     <div class="grid">
-      <h1 class="island-1-2 push-0 peta unit [ xs-1 s-1 m-1-3 l-1-2 xl-1-2 ]">Sign-up</h1>
-      <nav class="pad-t-1-2 grid-middle unit xs-1 s-1 m-2-3 l-1-2 xl-1-2">
-        <ul class="push-1-2 list-group">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="tour.html">Tour</a></li>
-          <li><a href="pricing.html">Pricing</a></li>
-          <li><a href="#">Sign-Up</a></li>
-        </ul>
-      </nav>
+      <div class="unit">
+      <label for="name" class="">Full name</label>
+        <input id="name" name="name">
+      </div>
+      <div class="unit">
+        <label for="email" class="">Email Adress</label>
+          <input id="email" name="email">
+      </div>
+      <div class="unit">
+        <label for="username" class="push-1-8">Username</label>
+          <input id="username" name="username">
+      </div>
+      <div class="unit">
+        <label for="os" class="push-1-8">Phone</label>
+          <select id="os" name="os">
+            <option value="">Select your phone</option>
+            <option>Windows</option>
+            <option>Iphone</option>
+            <option>Android</option>
+      </div>
     </div>
-  </header>
+  </main>

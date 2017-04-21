@@ -3,7 +3,7 @@ html {
 }
 
 header{
-  background-color: #91AFFF;
+  background-color: #91Afff;
   color: #fff;
 }
 
@@ -14,8 +14,39 @@ a {
 
 .proposition {
   color: #fff;
+  font-size: .75em;
+  width: 90%;
+  padding-left: 1em;
 }
 
 li {
   display: inline-block;
+}
+
+.blue {
+  background-color: #91Afff
+}
+
+.desk-price-table {
+  display: none;
+}
+
+.mob-price-table {
+  display: block;
+}
+
+@media only screen and (min-width: 38em) {
+
+  .proposition {
+    font-size: 1.25em;
+    width: 53%;
+  }
+
+  .desk-price-table {
+    display: block;
+  }
+
+  .mob-price-table {
+    display: none;
+  }
 }
