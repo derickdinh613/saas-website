@@ -2,7 +2,7 @@ html {
   font-family: "Press Start 2P", cursive;
 }
 
-header{
+header {
   background-color: #91Afff;
   color: #fff;
 }
@@ -10,6 +10,10 @@ header{
 a {
   text-decoration: none;
   color: #fff;
+}
+
+a:hover {
+  color: #4f25b6;
 }
 
 .proposition {
@@ -24,7 +28,7 @@ li {
 }
 
 .blue {
-  background-color: #91Afff
+  background-color: #91Afff;
 }
 
 .desk-price-table {
