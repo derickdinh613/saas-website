@@ -3,7 +3,7 @@ html {
 }
 
 header {
-  background-color: #91Afff;
+  background-color: #91afff;
   color: #fff;
 }
 
@@ -28,7 +28,7 @@ li {
 }
 
 .blue {
-  background-color: #91Afff;
+  background-color: #91afff;
 }
 
 .desk-price-table {
@@ -37,6 +37,15 @@ li {
 
 .mob-price-table {
   display: block;
+}
+
+footer {
+  background-color: #91afff;
+  color: #fff;
+}
+
+.table-hidden {
+  display: none;
 }
 
 @media only screen and (min-width: 38em) {
